@@ -1,0 +1,13 @@
+﻿{
+  "frameworks": {
+    "net46": {
+      "dependencies": {
+        "Newtonsoft.Json": "9.0.1",
+        "System.IO": "4.0.0.0",
+        "System.Runtime": "4.0.0.0",
+        "System.Threading.Tasks": "4.0.0.0",
+        "System.Configuration": "4.0.0.0"
+      }
+    }
+  }
+}

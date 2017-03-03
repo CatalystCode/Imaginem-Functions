@@ -1,0 +1,20 @@
+{
+  "job_definition": {
+    "batch_id": "mybatchid",
+    "id": "faceprint",
+    "input": {
+      "image_url": "http://diabetesdad.org/files/2013/11/diabetes-kids-and-adults.jpg"
+    },
+    "processing_pipeline": [ "facedetection", "facecrop", "faceprint" ],
+    "processing_step": 2
+  },
+  "job_output": {
+    "Facedetection": {
+
+    },
+    "Facecrop": {
+
+    }
+   
+  }
+}

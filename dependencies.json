@@ -1,0 +1,8 @@
+{
+  "facecrop": ["facedetection"],
+  "facedetection": [],
+  "facematch": ["faceprint"],
+  "faceprint": ["facedetection"],
+  "generalclassification": [],
+  "ocr": []
+}

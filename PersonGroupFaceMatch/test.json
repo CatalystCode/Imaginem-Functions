@@ -1,0 +1,353 @@
+{
+  "job_definition": {
+    "id": "729e11a1-20e3-db49-4a29-6e43e0316364.jpg",
+    "batch_id": "916e6597-9a18-abf9-7e51-d7ad5c4bc8b4",
+    "input": {
+      "image_url": "https://icrcimaginemhackfest.blob.core.windows.net/inputimages/916e6597-9a18-abf9-7e51-d7ad5c4bc8b4/729e11a1-20e3-db49-4a29-6e43e0316364.jpg",
+      "image_parameters": {
+        "originalName": "Beat Schwegler - BW.jpg",
+        "size": 632543,
+        "width": 1200
+      }
+    },
+    "processing_pipeline": [ "facematch", "pipelineoutput" ],
+    "processing_step": 0
+  },
+  "job_output": {
+    "general_classification": {
+      "categories": [
+        {
+          "name": "others_",
+          "score": 0.00390625
+        },
+        {
+          "name": "people_",
+          "score": 0.734375
+        }
+      ],
+      "adult": {
+        "isAdultContent": false,
+        "isRacyContent": false,
+        "adultScore": 0.010453349910676479,
+        "racyScore": 0.00979827344417572
+      },
+      "tags": [
+        {
+          "name": "sky",
+          "confidence": 0.99966919422149658
+        },
+        {
+          "name": "person",
+          "confidence": 0.999496579170227
+        },
+        {
+          "name": "outdoor",
+          "confidence": 0.98765742778778076
+        },
+        {
+          "name": "man",
+          "confidence": 0.98021209239959717
+        },
+        {
+          "name": "blue",
+          "confidence": 0.43269973993301392
+        },
+        {
+          "name": "male",
+          "confidence": 0.20135846734046936
+        }
+      ],
+      "description": {
+        "tags": [ "person", "outdoor", "man", "holding", "front", "shirt", "standing", "blue", "smiling", "posing", "hand", "white", "large", "young", "wearing", "yellow", "water", "boat", "kite" ],
+        "captions": [
+          {
+            "text": "a man in a blue sky",
+            "confidence": 0.43617808330898317
+          }
+        ]
+      },
+      "requestId": "0d36af1d-7ef8-4dd2-9316-b6731464d725",
+      "metadata": {
+        "width": 1200,
+        "height": 1200,
+        "format": "Jpeg"
+      },
+      "faces": [
+        {
+          "age": 46,
+          "gender": "Male",
+          "faceRectangle": {
+            "left": 327,
+            "top": 291,
+            "width": 342,
+            "height": 342
+          }
+        }
+      ],
+      "color": {
+        "dominantColorForeground": "Brown",
+        "dominantColorBackground": "Blue",
+        "dominantColors": [ "Blue" ],
+        "accentColor": "2E689D",
+        "isBWImg": false
+      },
+      "imageType": {
+        "clipArtType": 0,
+        "lineDrawingType": 0
+      }
+    },
+    "ocr": {
+      "language": "en",
+      "orientation": "NotDetected",
+      "regions": []
+    },
+    "facedetection": {
+      "faces": [
+        {
+          "FaceId": "e986b78c-1b8f-4d35-94f8-0781eacda776",
+          "FaceRectangle": {
+            "Width": 342,
+            "Height": 342,
+            "Left": 327,
+            "Top": 291
+          },
+          "FaceLandmarks": {
+            "PupilLeft": {
+              "X": 444.9,
+              "Y": 371.8
+            },
+            "PupilRight": {
+              "X": 589.5,
+              "Y": 400.1
+            },
+            "NoseTip": {
+              "X": 481.5,
+              "Y": 477.6
+            },
+            "MouthLeft": {
+              "X": 414.5,
+              "Y": 524.2
+            },
+            "MouthRight": {
+              "X": 557.0,
+              "Y": 556.3
+            },
+            "EyebrowLeftOuter": {
+              "X": 393.4,
+              "Y": 357.0
+            },
+            "EyebrowLeftInner": {
+              "X": 472.2,
+              "Y": 358.2
+            },
+            "EyeLeftOuter": {
+              "X": 418.1,
+              "Y": 371.9
+            },
+            "EyeLeftTop": {
+              "X": 442.5,
+              "Y": 360.7
+            },
+            "EyeLeftBottom": {
+              "X": 438.0,
+              "Y": 382.0
+            },
+            "EyeLeftInner": {
+              "X": 464.1,
+              "Y": 379.2
+            },
+            "EyebrowRightInner": {
+              "X": 547.8,
+              "Y": 367.4
+            },
+            "EyebrowRightOuter": {
+              "X": 656.2,
+              "Y": 403.2
+            },
+            "EyeRightInner": {
+              "X": 559.2,
+              "Y": 400.2
+            },
+            "EyeRightTop": {
+              "X": 591.3,
+              "Y": 388.8
+            },
+            "EyeRightBottom": {
+              "X": 585.4,
+              "Y": 410.5
+            },
+            "EyeRightOuter": {
+              "X": 617.2,
+              "Y": 410.6
+            },
+            "NoseRootLeft": {
+              "X": 487.3,
+              "Y": 388.9
+            },
+            "NoseRootRight": {
+              "X": 525.6,
+              "Y": 395.8
+            },
+            "NoseLeftAlarTop": {
+              "X": 467.2,
+              "Y": 441.2
+            },
+            "NoseRightAlarTop": {
+              "X": 530.1,
+              "Y": 456.8
+            },
+            "NoseLeftAlarOutTip": {
+              "X": 444.9,
+              "Y": 465.3
+            },
+            "NoseRightAlarOutTip": {
+              "X": 542.5,
+              "Y": 486.9
+            },
+            "UpperLipTop": {
+              "X": 479.3,
+              "Y": 532.8
+            },
+            "UpperLipBottom": {
+              "X": 477.2,
+              "Y": 542.3
+            },
+            "UnderLipTop": {
+              "X": 473.5,
+              "Y": 561.9
+            },
+            "UnderLipBottom": {
+              "X": 469.7,
+              "Y": 578.7
+            }
+          },
+          "FaceAttributes": null
+        }
+      ]
+    },
+    "faceprint": {
+      "faces": [
+        {
+          "FaceId": "e986b78c-1b8f-4d35-94f8-0781eacda776",
+          "FaceRectangle": {
+            "Width": 342,
+            "Height": 342,
+            "Left": 327,
+            "Top": 291
+          },
+          "FaceLandmarks": {
+            "PupilLeft": {
+              "X": 444.9,
+              "Y": 371.8
+            },
+            "PupilRight": {
+              "X": 589.5,
+              "Y": 400.1
+            },
+            "NoseTip": {
+              "X": 481.5,
+              "Y": 477.6
+            },
+            "MouthLeft": {
+              "X": 414.5,
+              "Y": 524.2
+            },
+            "MouthRight": {
+              "X": 557.0,
+              "Y": 556.3
+            },
+            "EyebrowLeftOuter": {
+              "X": 393.4,
+              "Y": 357.0
+            },
+            "EyebrowLeftInner": {
+              "X": 472.2,
+              "Y": 358.2
+            },
+            "EyeLeftOuter": {
+              "X": 418.1,
+              "Y": 371.9
+            },
+            "EyeLeftTop": {
+              "X": 442.5,
+              "Y": 360.7
+            },
+            "EyeLeftBottom": {
+              "X": 438.0,
+              "Y": 382.0
+            },
+            "EyeLeftInner": {
+              "X": 464.1,
+              "Y": 379.2
+            },
+            "EyebrowRightInner": {
+              "X": 547.8,
+              "Y": 367.4
+            },
+            "EyebrowRightOuter": {
+              "X": 656.2,
+              "Y": 403.2
+            },
+            "EyeRightInner": {
+              "X": 559.2,
+              "Y": 400.2
+            },
+            "EyeRightTop": {
+              "X": 591.3,
+              "Y": 388.8
+            },
+            "EyeRightBottom": {
+              "X": 585.4,
+              "Y": 410.5
+            },
+            "EyeRightOuter": {
+              "X": 617.2,
+              "Y": 410.6
+            },
+            "NoseRootLeft": {
+              "X": 487.3,
+              "Y": 388.9
+            },
+            "NoseRootRight": {
+              "X": 525.6,
+              "Y": 395.8
+            },
+            "NoseLeftAlarTop": {
+              "X": 467.2,
+              "Y": 441.2
+            },
+            "NoseRightAlarTop": {
+              "X": 530.1,
+              "Y": 456.8
+            },
+            "NoseLeftAlarOutTip": {
+              "X": 444.9,
+              "Y": 465.3
+            },
+            "NoseRightAlarOutTip": {
+              "X": 542.5,
+              "Y": 486.9
+            },
+            "UpperLipTop": {
+              "X": 479.3,
+              "Y": 532.8
+            },
+            "UpperLipBottom": {
+              "X": 477.2,
+              "Y": 542.3
+            },
+            "UnderLipTop": {
+              "X": 473.5,
+              "Y": 561.9
+            },
+            "UnderLipBottom": {
+              "X": 469.7,
+              "Y": 578.7
+            }
+          },
+          "FaceAttributes": null
+        }
+      ]
+    }
+  }
+}

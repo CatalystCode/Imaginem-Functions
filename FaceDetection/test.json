@@ -1,0 +1,18 @@
+{
+  "job_definition": {
+    "batch_id": "mybatchid",
+    "id": "myjobid",
+    "input": {
+      "image_url": "http://3.bp.blogspot.com/-4RvMlf8daME/TjsLch9CTZI/AAAAAAAAzl0/Esz8MYXx2Is/s1600/Big-Group-of-People.png",
+      "image_classifiers": [ "classifier1", "classifier2" ]
+    },
+    "processing_pipeline": [ "facedetection", "facecrop", "facecropoutput" ],
+    "processing_step": 0
+
+  },
+  "job_output": {
+    "sample_job1": {
+      "output": "sample_job1 output"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "inputMsg",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "generalclassification",
+      "connection": "AzureWebJobsStorage"
+    }
+  ],
+  "disabled": false
+}

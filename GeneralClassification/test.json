@@ -1,0 +1,20 @@
+{
+  "job_definition": {
+    "batch_id": "mybatchid",
+    "id": "myjobId",
+    "input": {
+      "image_url": "http://images.csmonitor.com/csm/2012/10/1002-aleppo-syria-bombings.jpg",
+      "image_parameters": {
+        "param1": "value1",
+        "param2": "value2"
+      }
+    },
+    "processing_pipeline": [ "generalclassification", "ocr", "pipelineoutput" ],
+    "processing_step": 0
+  },
+    "job_output" : {
+        "job1" : {
+
+        }
+    }
+}

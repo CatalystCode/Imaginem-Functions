@@ -1,0 +1,13 @@
+﻿// this function is retained only for example of how to use Persons and PersonGroups from the Cognitive Services Face API - keep disabled == true
+{
+  "disabled": true,
+  "bindings": [
+    {
+      "name": "inputMsg",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "facematch",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "aaee025fea174de784b1e77536383008",
+  "queues": {
+    "maxPollingInterval": 1000,
+    "batchSize": 2,
+    "maxDequeueCount": 1,
+    "newBatchThreshold": 1
+  }
+}

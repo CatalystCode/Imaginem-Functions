@@ -1,0 +1,18 @@
+{
+  "job_definition": {
+    "batch_id": "mybatchid",
+    "id": "myjobid",
+    "input": {
+      "image_url": "your image url",
+      "image_classifiers": [ "classifier1", "classifier2" ]
+    },
+    "processing_pipeline": [ "sample", "pipelineoutput" ],
+    "processing_step": 0
+
+  },
+  "job_output" : {
+    "sample_job1" : {
+      "output": "sample_job1 output"
+    }
+  }
+}
