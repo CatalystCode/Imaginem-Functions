@@ -1,8 +1,9 @@
 {
-  "facecrop": ["facedetection"],
+  "facecrop": [ "facedetection" ],
   "facedetection": [],
-  "facematch": ["faceprint"],
-  "faceprint": ["facedetection"],
+  "facematch": [ "faceprint" ],
+  "faceprint": [ "facedetection" ],
   "generalclassification": [],
-  "ocr": []
+  "ocr": [],
+  "pipelineoutput" : []
 }

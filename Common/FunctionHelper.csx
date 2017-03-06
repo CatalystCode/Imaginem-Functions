@@ -18,6 +18,7 @@ private class LinkedContent
 {
     public string linked_content;
 }
+
 public class PipelineHelper
 {
     private const int MAX_EMBEDDED_CONTENT_SIZE = 16 * 1024;
