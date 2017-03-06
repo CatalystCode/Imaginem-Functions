@@ -88,7 +88,23 @@ Ensure you add all needed input data (your dependencies) as part of the `job_out
 
 
 ## Test the function locally
-To test your functions locally, you either run them in Visual Studio or you use `azure-functions-cli` directly:
+To test your functions locally, you need to update your [appsettings.json](https://github.com/CatalystCode/Imaginem-Functions/blob/master/appsettings.json#L6-L10) file:
+
+```json
+  {
+    "IsEncrypted": false,
+    "Values": {
+      "FACES_CONTAINER": "faces",
+      "SQL_CONNECTION_STRING": "<YOUR_SQL_CONNECTION_STRING>",
+      "FACE_API_KEY": "<YOUR_FACE_API_KEY>",
+      "VISION_API_KEY": "<YOUR_VISION_API_KEY",
+      "AzureWebJobsStorage": "<YOUR_STORAGE_CONNECTION_STRING>",
+      "AzureWebJobsDashboard": "<YOUR_STORAGE_CONNECTION_STRING>"
+    }
+  }
+```
+
+Once you've done that, you can either run your functions in Visual Studio or use `azure-functions-cli` directly:
 
 ```
 npm i -g azure-functions-cli
